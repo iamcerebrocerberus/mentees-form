@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Seth Mensah" />
+    <meta name="description" content="Sign up and Login page" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/styles.css" />
+    <title>Account Form</title>
+  </head>
+  <body
+    class="min-h-screen flex flex-col justify-center items-center font-Montserrat bg-white p-4 md:p-0"
+  >
+    <h1 class="text-xl font-extrabold uppercase text-center mb-5">
+      Mentees Account Page
+    </h1>
+    <div class="flex justify-center gap-3 flex-col md:flex-row">
+      <div class="md:w-1/2 sm:flex sm:justify-center">
+        <img
+          src="./images/hello.png"
+          alt=""
+          role="presentation"
+          class="sm:w-10/12"
+        />
+      </div>
+      <div class="self-center w-60 flex flex-col">
+        <div class="flex justify-around style mb-6">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="flex gap-3 flex-col">
+          <a
+            href="./src/pages/signup.html"
+            target="_self"
+            class="bg-blue-500 text-gray-100 font-bold text-center text-lg px-6 py-3 rounded-full block"
+            >sign up</a
+          >
+          <a
+            href="./src/pages/login.html"
+            target="_self"
+            class="bg-blue-500 text-gray-100 font-bold text-center text-lg px-6 py-3 rounded-full"
+            >log in</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

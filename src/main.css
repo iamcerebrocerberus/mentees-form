@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.style i {
+  font-size: 1rem;
+  width: 2rem;
+  height: 2rem;
+  border: 0.3px solid gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../dist/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mantees | Log In</title>
+  </head>
+  <body
+    class="font-Montserrat flex flex-col min-h-screen items-center justify-center"
+  >
+    <div class="flex flex-col justify-center md:flex-row lg1:max-w-1040">
+      <div class="sm:flex sm:justify-center md:w-1/2">
+        <img src="../../images/login.png" alt="" role="presentation" />
+      </div>
+      <form action="#" class="w-5/6 self-center md:w-1/2">
+        <div class="flex w-full justify-between mb-4">
+          <h1 class="text-gray-700 font-medium">Log In</h1>
+          <p class="text-sm flex items-center">
+            or
+            <a href="./signup.html" class="text-blue-700 ml-2"
+              >create an account</a
+            >
+          </p>
+        </div>
+        <label for="email" class="mb-2 font-bold block text-gray-700"
+          >Email</label
+        >
+        <input
+          type="email"
+          name=""
+          id="email"
+          class="appearance-none mb-5 block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+        />
+        <label for="password" class="font-bold mb-2 block text-gray-700"
+          >Password</label
+        >
+        <input
+          type="password"
+          name=""
+          id="password"
+          class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+        />
+        <div class="flex justify-between items-center mt-6">
+          <button
+            type="submit"
+            class="bg-blue-500 text-white font-bold py-2 px-4 rounded text-sm"
+          >
+            Log in
+          </button>
+          <a href="#" class="text-blue-700 text-sm">Forgot password?</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
